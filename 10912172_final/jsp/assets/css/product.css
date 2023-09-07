@@ -1,0 +1,124 @@
+#product{
+    display: flex;
+    justify-content: center;
+}
+
+#back{
+    z-index: 10;          
+    position: fixed;      
+    top: 90%;
+    left: 10%;
+    opacity: 0.80; 
+}
+
+#back img{
+    width: 100pt;
+}
+
+.photo > .round{
+    border-radius: 30px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.photo{
+    width: 450px;
+    margin: 170px 50px 0 0;
+}
+  
+.photo>img{
+    width: 100%;
+}
+
+.right{
+    display: flex;
+    flex-direction:column;
+}
+
+.star{
+    color: yellow;
+    display: inline-block;
+    position: relative;
+    left: 27%;
+    font-size: 45px;
+}
+
+.detail{
+    color: aliceblue;
+}
+  
+.detail>h1{
+    margin-top: 175px;
+    font-size: 2.5rem;
+    text-align: center;
+    text-shadow: rgba(199, 199, 199, 0.221) 4px 3px 0px;
+}
+
+.detail>h2{
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+#sale{
+    margin-top: 15px;
+    font-size: 28px;
+    color: rgb(230, 109, 95);
+    text-align: center;
+}
+
+.title{
+    color: aliceblue;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+hr{
+    margin: 60px 180px;
+    border: 1.5px solid rgb(255, 0, 0);
+    border-radius: 80px;
+}
+
+.qty {  /*choose*/
+    width: 40px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid rgb(255, 0, 0);
+}
+  
+input.qtyplus {
+    width: 25px;
+    height: 35px;
+    border: 1px solid rgb(255, 0, 0);
+    background: white;
+}
+  
+input.qtyminus {
+    width: 25px;
+    height: 35px;
+    border: 1px solid rgb(255, 0, 0);
+    background: white;
+}
+
+button{
+    margin: 20px 60px 5px 60px;
+    background-color: #d5cabb;
+    border-radius: 50px;
+}
+
+button> h1{
+    text-align: center;
+    margin: 3px;
+    font-size: 15px;
+}
+
+#myform {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.word{
+    color: aliceblue;
+    margin: 0 15% ;
+
+}
+

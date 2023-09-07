@@ -1,0 +1,25 @@
+/*record*/
+.recordlist{
+    position: relative;
+    width: 80%;
+    background-color: white;
+    margin: 3% 9% ;
+    padding: 20px 10px 2px;
+    box-shadow: #808080 3px 5px 5px;
+}
+
+td{
+    text-align: center;
+}
+.list_header{
+    font-weight: 900;
+    font-size:28px;
+}
+.list_body img{
+    width:150px; 
+    height:150px;
+    border-radius: 5%;
+}
+.comment{
+    width: 40%;
+}

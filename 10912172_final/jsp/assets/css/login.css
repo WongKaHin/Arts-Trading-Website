@@ -1,0 +1,62 @@
+.icon-a:link {
+    color: rgb(255, 255, 255);
+}
+.icon-a:visited{
+    color: rgb(255, 255, 255);
+}
+.page{
+    padding-top: 15%;
+}
+
+.login-box{
+    
+    position: relative;
+    width: 30%;
+    background-color: white;
+    margin: 0% 35%;
+    padding: 20px 10px;
+    box-shadow: #808080 3px 5px 5px;
+}
+.login-title{
+    line-height: 70px;
+    text-align: center;
+}
+.loginGroup{
+    line-height: 40px;
+    padding: 0px 20%;
+}
+.btn{
+    line-height: 20px;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+}
+.btn-login{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    padding: 5px 100px;
+    background-color: silver;
+    border-radius: 6px;
+}
+.icon{
+    color: aliceblue;
+    margin: 10px 35%;
+    line-height: 50px;
+    justify-content: space-between;
+    display: flex;
+   
+}
+
+.photo2 > .round{
+    border-radius: 30px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.photo2{
+    width: 450px;
+    margin: 170px 50px 0 0;
+}
+  
+.photo2>img{
+    width: 100%;
+}

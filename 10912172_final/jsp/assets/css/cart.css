@@ -1,0 +1,109 @@
+.gotoshop{
+    background-color: #00d9ff;
+    color: white;
+    line-height: 60px;
+    font-size: 32px;
+    padding: 0% 4%;
+    border-radius: 10px;
+    width: 30%;
+    margin: 0% 35% 0% 35%;
+}
+.page{
+  padding-top: 5%;
+}
+.buyitem{
+  width: 90%;
+  background-color: white;
+  box-shadow: gray 3px 3px 5px;
+  border-radius: 5%;
+  padding: 1% 5.2%;
+}
+
+.buyitem-c{
+  width: 90%;
+  background-color: white;
+  box-shadow: gray 3px 3px 5px;
+  border-radius: 5%;
+  padding: 1% 5.2%;
+}
+.buylist{
+  text-align: center;
+}
+.cart-title{
+    font-size:50pt;
+    line-height: 70px;
+    text-align: center;
+}
+.item_header{
+  font-size: 26px;
+  font-weight: 800;
+  padding: 3% 0%;
+}
+img{
+  border-radius: 5%;
+}
+td{
+  width: 20%;
+}
+.product-q{
+  width: 15%;
+  text-align: center;
+}
+.amount{
+  width: 35%;
+}
+.total{
+  width: 35%;
+}
+
+.operate button{
+  width: auto;
+  height: 30px;
+  padding: 2px 2px;
+  background-color: #808080;
+  color: white;
+  border-radius: 5px;
+}
+
+/* button */
+.btn-sty{
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+  padding: 5px 20px;
+  margin: 0px 30px;
+  background-color: #808080;
+  border-radius: 6px;
+}
+.btn{
+  line-height: 20px;
+  margin: 30px 0px;
+  text-align: center;
+  align-items:center;
+}
+/* 訂購資料 */
+.buymember{
+  font-weight: 800;
+  font-size: 22px;
+}
+.member-data{
+  margin:50px 5%;
+  line-height: 50px;
+  text-align: left;
+  font-size: 18px;
+  
+}
+#address{
+  width: 50%;
+}
+input{
+  font-size: 18px;
+  border-radius: 5px;
+  outline: none;
+} 
+/* 空購物車圖片 */
+.empty img{
+  height:40% ;
+  width:40%;
+  margin:10% 25% 0% 25%;
+} 

@@ -1,0 +1,14 @@
+#topimg{
+    position: absolute;
+    height: 80%;
+    width: 100%; 
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.box{
+    position: absolute;
+    background: url(../images/hero2.jpg);
+    background-attachment: fixed;
+}
+

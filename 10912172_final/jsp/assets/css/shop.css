@@ -1,0 +1,99 @@
+.box{
+    margin: 100px auto;
+    width: 500px;
+    height: 50px;
+  }
+.container-1{
+    width: 500px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+
+.container-1 input#search{
+    width: 500px;
+    height: 50px;
+    background: #ffffff;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #63717f;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.container .card{
+    position: relative;
+    max-width: 300px;
+    height: 215px;
+    background-color: #ffffff;
+    transition: 0.3s ease-in-out;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .card:hover{
+    height: 420px;
+}
+
+.container .card .imgbx{
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 20px;
+    z-index: 1;
+    
+}
+
+.container .card .imgbx img{
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.container .card .content{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.container .card:hover .content{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -90px;
+    transition-delay:0.3s ;
+}
+
+.title{
+    color: aliceblue;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+hr{
+    margin: 50px 150px;
+    border: 1.5px solid rgb(255, 0, 0);
+    border-radius: 80px;
+}
+
+
+
+

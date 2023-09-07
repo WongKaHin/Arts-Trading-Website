@@ -1,0 +1,7 @@
+.backtotop {
+    z-index: 10;          
+    position: fixed;      
+    top: 85%;
+    left: 90%;
+    opacity: 0.80; 
+  }
